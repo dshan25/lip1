@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 
-X = np.arange(-5, 5, 0.25)
-Y = np.arange(-5, 5, 0.25)
+X = np.arange(-5, 3, 0.25)
+Y = np.arange(-5, 3, 0.25)
 X, Y = np.meshgrid(X, Y)
 
 Z = np.ndarray(X.shape)
